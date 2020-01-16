@@ -62,8 +62,16 @@ Task 5: The locate command cont..
 Task 6: Find commands
 
 1. ~$ find ~/ -name *.pdf        #Command that searches the system and finds vall files that are in .pdf format and displays results
-2. ~$ mkdir searchresults
-   ~$ cat find
+2. ~$ find ~/ -name *.pdf > searchresults
+   ~$ ls
+3. ~$ find . type f -newermt 2020-01-16 -ls
+
+Task 7: Text
+
+1. ~$ nano [option] /path/to/my_bio.md
+2. Ctrl+o
+3. ~$ mkdir my_files
+   ~$ 
 
 
 
