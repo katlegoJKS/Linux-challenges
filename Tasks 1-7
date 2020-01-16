@@ -22,4 +22,13 @@ Task 2:Absolute and Relative Paths
 
 
 Task 3: cat commands
-
+1. ~$ touch umuzi.md
+   ~$ touch recruits.md
+   ~$ touch cohort.md
+2. ~$ cat > umuzi.md
+   Umuzi is awesome
+   ~$ cat recruits.md
+   Umuzi recruits are cool
+   ~$ cat cohort.md
+   Umuzi cohorts are cool and awesome
+3. ~$ cat umuzi.md recruits.md cohort.md
