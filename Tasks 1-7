@@ -1,1 +1,8 @@
+BEGGINER LINUX CHALLENGES
+
+Task 1: Basic Task
+
+1. ~$ ls                  #Enlists all files that exist within the current directory
+2. ~$ pwd                 #Displays the current working directory the user is currently in
+3. ~$ mkdir workspace     #Creates a folder named workspace
 
