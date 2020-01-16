@@ -22,6 +22,7 @@ Task 2:Absolute and Relative Paths
 
 
 Task 3: cat commands
+
 1. ~$ touch umuzi.md
    ~$ touch recruits.md
    ~$ touch cohort.md
@@ -34,4 +35,40 @@ Task 3: cat commands
 3. ~$ cat umuzi.md recruits.md cohort.md                       #Combines all contents of the 3 files and displays the result
 4. ~$ cat umuzi.md recruits.md cohort.md -> summary.md         #Print/Stores the previous output into summary.md and appends the words "The End."
    The End.
-   
+
+
+Task 4 : The locate command
+
+1. ~$ locate umuzi
+2. ~$ locate umuzi > search_results.md
+   ~$ cat search_results.md
+
+Task 5: The locate command cont..
+
+1. ~$ cd ~/Documents
+   ~/Documents$ touch pad.md
+   ~/Documents$ cd
+   ~$
+2. ~$ cd ~/Desktop
+   ~/Desktop$ mkdir work
+3. ~/Desktop$ cd ~/Documents
+   ~/Documents$ cp pad.md pad_copy.md
+4. ~/Documents$ locate updatedb
+5. ~/Documents$ cd -
+   ~$
+6. locate pad_copy.md
+
+
+Task 6: Find commands
+
+1. ~$ find ~/ -name *.pdf        #Command that searches the system and finds vall files that are in .pdf format and displays results
+2. ~$ mkdir searchresults
+   ~$ cat find
+
+
+
+
+
+
+
+
