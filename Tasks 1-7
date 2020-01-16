@@ -2,23 +2,28 @@ BEGGINER LINUX CHALLENGES
 
 Task 1: Basic Task
 
-1. ~$ ls                  #Enlists all files that exist within the current directory
-2. ~$ pwd                 #Displays the current working directory the user is currently in
-3. ~$ mkdir workspace     #Creates a folder named workspace
+1. ~$ ls                                      #Enlists all files that exist within the current directory
+2. ~$ pwd                                     #Displays the current working directory the user is currently in
+3. ~$ mkdir workspace                         #Creates a folder named workspace
    ~$ cd ~/workspace
-4. ~/workspace$ ls                  #Displays all files and folders that exist in the directory 'workspace'
-5. ~/workspace$ touch README.md     #Creates a new file called README.md using the touch command
-6. ~/wprkspace$ cp README.md        #Makes a copy of the file README.md
+4. ~/workspace$ ls                            #Displays all files and folders that exist in the directory 'workspace'
+5. ~/workspace$ touch README.md               #Creates a new file called README.md using the touch command
+6. ~/wprkspace$ cp README.md                  #Makes a copy of the file README.md
    ~/workspace$ mv README.md CHANGELOG.md     #Renames the copy of README.md to CHANGELOG.md
+
+
 
 
 Task 2:Absolute and Relative Paths
 
-~$ mkdir tmp            #Creates a folder tmp
-~$ touch exercise.md    #Creates a file named exercise
-~$ mv exercise.md ~/tmp #Moves the file exercise to the tmp dirctory
+~$ mkdir tmp                     #Creates a folder tmp
+~$ touch exercise.md             #Creates a file named exercise
+~$ mv exercise.md ~/tmp          #Moves the file exercise to the tmp dirctory
 ~$ cd ~/tmp
-~/tmp$ rm exercise.md   #Deletes the file exercise.md
+~/tmp$ rm exercise.md            #Deletes the file exercise.md
+
+
+
 
 
 Task 3: cat commands
@@ -37,11 +42,17 @@ Task 3: cat commands
    The End.
 
 
+
+
 Task 4 : The locate command
 
 1. ~$ locate umuzi
 2. ~$ locate umuzi > search_results.md
    ~$ cat search_results.md
+
+
+
+
 
 Task 5: The locate command cont..
 
@@ -59,12 +70,17 @@ Task 5: The locate command cont..
 6. locate pad_copy.md
 
 
+
+
 Task 6: Find commands
 
-1. ~$ find ~/ -name *.pdf        #Command that searches the system and finds vall files that are in .pdf format and displays results
+1. ~$ find ~/ -name *.pdf                    #Command that searches the system and finds vall files that are in .pdf format and displays results
 2. ~$ find ~/ -name *.pdf > searchresults
    ~$ ls
 3. ~$ find . type f -newermt 2020-01-16 -ls
+
+
+
 
 Task 7: Text
 
@@ -72,11 +88,3 @@ Task 7: Text
 2. #Press Ctrl+o
 3. ~$ mkdir my_files
    ~$ mv my_bio.md ~/my_files
-
-
-
-
-
-
-
-
