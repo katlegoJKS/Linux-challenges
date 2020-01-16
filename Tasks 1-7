@@ -25,10 +25,13 @@ Task 3: cat commands
 1. ~$ touch umuzi.md
    ~$ touch recruits.md
    ~$ touch cohort.md
-2. ~$ cat > umuzi.md
+2. ~$ cat > umuzi.md                                           #Fills a files with text content
    Umuzi is awesome
    ~$ cat recruits.md
    Umuzi recruits are cool
    ~$ cat cohort.md
    Umuzi cohorts are cool and awesome
-3. ~$ cat umuzi.md recruits.md cohort.md
+3. ~$ cat umuzi.md recruits.md cohort.md                       #Combines all contents of the 3 files and displays the result
+4. ~$ cat umuzi.md recruits.md cohort.md -> summary.md         #Print/Stores the previous output into summary.md and appends the words "The End."
+   The End.
+   
