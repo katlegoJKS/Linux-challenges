@@ -5,4 +5,17 @@ Task 1: Basic Task
 1. ~$ ls                  #Enlists all files that exist within the current directory
 2. ~$ pwd                 #Displays the current working directory the user is currently in
 3. ~$ mkdir workspace     #Creates a folder named workspace
+   ~$ cd ~/workspace
+4. ~/workspace$ ls                  #Displays all files and folders that exist in the directory 'workspace'
+5. ~/workspace$ touch README.md     #Creates a new file called README.md using the touch command
+6. ~/wprkspace$ cp README.md        #Makes a copy of the file README.md
+   ~/workspace$ mv README.md CHANGELOG.md     #Renames the copy of README.md to CHANGELOG.md
 
+
+Task 2:Absolute and Relative Paths
+
+~$ mkdir tmp      #Creates a file tmp
+~$ touch exercise.md
+~$ mv exercise.md ~/tmp
+~$ cd ~/tmp
+~/tmp$ rm exercise.md
