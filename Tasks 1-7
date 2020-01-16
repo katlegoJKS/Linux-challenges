@@ -68,10 +68,10 @@ Task 6: Find commands
 
 Task 7: Text
 
-1. ~$ nano [option] /path/to/my_bio.md
-2. Ctrl+o
+1. ~$ nano my_bio.md
+2. #Press Ctrl+o
 3. ~$ mkdir my_files
-   ~$ 
+   ~$ mv my_bio.md ~/my_files
 
 
 
