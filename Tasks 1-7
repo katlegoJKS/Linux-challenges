@@ -14,8 +14,12 @@ Task 1: Basic Task
 
 Task 2:Absolute and Relative Paths
 
-~$ mkdir tmp      #Creates a file tmp
-~$ touch exercise.md
-~$ mv exercise.md ~/tmp
+~$ mkdir tmp            #Creates a folder tmp
+~$ touch exercise.md    #Creates a file named exercise
+~$ mv exercise.md ~/tmp #Moves the file exercise to the tmp dirctory
 ~$ cd ~/tmp
-~/tmp$ rm exercise.md
+~/tmp$ rm exercise.md   #Deletes the file exercise.md
+
+
+Task 3: cat commands
+
