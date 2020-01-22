@@ -19,7 +19,7 @@ Task 2:Absolute and Relative Paths
 ~$ mkdir tmp                     #Creates a folder tmp
 ~$ touch exercise.md             #Creates a file named exercise
 ~$ mv exercise.md ~/tmp          #Moves the file exercise to the tmp dirctory
-~$ cd ~/tmp
+~$ cd ~/tmp                      #Go into tmp directory
 ~/tmp$ rm exercise.md            #Deletes the file exercise.md
 
 
@@ -28,10 +28,10 @@ Task 2:Absolute and Relative Paths
 
 Task 3: cat commands
 
-1. ~$ touch umuzi.md
-   ~$ touch recruits.md
-   ~$ touch cohort.md
-2. ~$ cat > umuzi.md                                           #Fills a files with text content
+1. ~$ touch umuzi.md                                           #creates the file umuzi.md
+   ~$ touch recruits.md                                        #creates the file recruits.md
+   ~$ touch cohort.md                                          #craetes the file cohort.md
+2. ~$ cat > umuzi.md                                           #Fills a file(s) with text content
    Umuzi is awesome
    ~$ cat recruits.md
    Umuzi recruits are cool
@@ -46,9 +46,9 @@ Task 3: cat commands
 
 Task 4 : The locate command
 
-1. ~$ locate umuzi
-2. ~$ locate umuzi > search_results.md
-   ~$ cat search_results.md
+1. ~$ locate umuzi                        #locates the file umuzi.md
+2. ~$ locate umuzi > search_results.md    #searches and loctes the file umuzi.md and laods this search result into a file named search_result.md
+   ~$ cat search_results.md               #outputs contents of search_results
 
 
 
@@ -56,18 +56,18 @@ Task 4 : The locate command
 
 Task 5: The locate command cont..
 
-1. ~$ cd ~/Documents
-   ~/Documents$ touch pad.md
+1. ~$ cd ~/Documents                      #Goto documents folder
+   ~/Documents$ touch pad.md              #creates a new file pad.md
    ~/Documents$ cd
+   ~$                                     #Go back to home directory
+2. ~$ cd ~/Desktop                        #Goto Desktop 
+   ~/Desktop$ mkdir work                  #Creates a new folder called work
+3. ~/Desktop$ cd ~/Documents              #changes working directory to documents
+   ~/Documents$ cp pad.md pad_copy.md     #copies the file pad.md and renames the copy as pad_copy.md
+4. ~/Documents$ locate updatedb           #serches the folder updatedb
+5. ~/Documents$ cd -                      #goes to previous working directory
    ~$
-2. ~$ cd ~/Desktop
-   ~/Desktop$ mkdir work
-3. ~/Desktop$ cd ~/Documents
-   ~/Documents$ cp pad.md pad_copy.md
-4. ~/Documents$ locate updatedb
-5. ~/Documents$ cd -
-   ~$
-6. locate pad_copy.md
+6. locate pad_copy.md                     #locates the path of pad_copy
 
 
 
@@ -75,16 +75,16 @@ Task 5: The locate command cont..
 Task 6: Find commands
 
 1. ~$ find ~/ -name *.pdf                    #Command that searches the system and finds vall files that are in .pdf format and displays results
-2. ~$ find ~/ -name *.pdf > searchresults
+2. ~$ find ~/ -name *.pdf > searchresults    #takes the result of the previous search and copies into the folder searchresults
    ~$ ls
-3. ~$ find . type f -newermt 2020-01-16 -ls
+3. ~$ find . type f -newermt 2020-01-16 -ls  #displays files that have been modified today
 
 
 
 
 Task 7: Text
 
-1. ~$ nano my_bio.md
-2. #Press Ctrl+o
-3. ~$ mkdir my_files
-   ~$ mv my_bio.md ~/my_files
+1. ~$ nano my_bio.md                         #creates a file my_bio.md and awaits input/content
+2. #Press Ctrl+o to exit nano
+3. ~$ mkdir my_files                         #creates a new folder called my_files
+   ~$ mv my_bio.md ~/my_files                #moves the file my_bio.md into the folder my_files 
